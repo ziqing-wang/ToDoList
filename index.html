@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="list-container">
+        <div class="header">
+            <h1>Mon, 4 Feb</h1>
+        </div>
+        <ul class="list-box">
+            <li class="item">
+                <input type="checkbox">
+                <p>Welcome to your to do list</p>
+                <button class="btns">x</button>
+            </li>
+            <li class="item">
+                <input type="checkbox">
+                <p>Press '+' button to add item</p>
+                <button class="btns">x</button>
+            </li>
+            <li class="item">
+                <input type="checkbox" checked="checked">
+                <p>&lt;-- Hit this to complete the item</p>
+                <button class="btns">x</button>
+            </li>
+            <li class="item">
+                <input type="checkbox">
+                <p>Press 'x' button to delete the item</p>
+                <button class="btns">x</button>
+            </li>
+
+        </ul>
+        <div class="new-item-container">
+            <input type="text" class="new-item-input" placeholder="Add new item here ...">
+            <button class="btns add-btn" id="addBtn">+</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>Created by Ziqing Wang</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
